@@ -1,4 +1,4 @@
-# Update LED Indicator Script for 52Pi RS-P11 Expansion Boards
+# APT Update LED Indicator Script for 52Pi RS-P11 Expansion Boards
 Use the red LED indicator on the 52Pi RS-P11 to notify you about system updates.
 
 ![Raspberry Pi indicator light flashing.](https://github.com/binxdqt/rs-p11-update-led-script/blob/main/flash_sample.gif?raw=true)
