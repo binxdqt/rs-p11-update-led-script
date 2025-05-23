@@ -33,3 +33,8 @@ You can quickly modify the following variables at the top of the script to fit y
 You can use the simulation flags at the top of the script to test the script.
 
 Set either `simulate_regular_updates` or `simulate_security_updates` to `True` if you want to simulate the blinking LED. Default value is `False`.
+
+## About
+This is my first GitHub repository! Please let me know how I did in Discussions.
+
+I created this script after I purchased a RackMate T1 and the Geeekpi RS02 2U Raspberry Pi rack. The RS02 comes with these PCIe to NVMe expansion boards which has a red LED at the front. I wanted to use the red LED for something, and since I'm not checking my devices every single day, I thought it would be useful to know when all of my devices need updates and remembered that the red LED indicator is connected to a GPIO pin. I created this script to simply flash the LED at the front, so I know when updates are needed without having to check manually.
