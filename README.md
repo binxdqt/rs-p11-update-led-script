@@ -30,7 +30,7 @@ You can quickly modify the following variables at the top of the script to fit y
 **regular_update_interval:** [FLOAT] ON/OFF state per second when there is a regular update. Default is `0.6` seconds.
 
 ## Simulation Flags
-You can use the simulation flags at the top of the script to test the script.
+You can use the simulation flags at the top of the script to test the flashing LED function. Useful if you want to use this script with other GPIO pins.
 
 Set either `simulate_regular_updates` or `simulate_security_updates` to `True` if you want to simulate the blinking LED. Default value is `False`.
 
