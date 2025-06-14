@@ -25,10 +25,6 @@ You can quickly modify the following variables at the top of the script to fit y
 
 **LED_PIN:** [INT] Change the LED that will flash. By default, this script uses the pin specifically for the 52Pi RS-P11.
 
-**security_update_interval:** [FLOAT] ON/OFF state per second when there is a security update. Default is `0.3` seconds.
-
-**regular_update_interval:** [FLOAT] ON/OFF state per second when there is a regular update. Default is `0.6` seconds.
-
 ## Simulation Flags
 You can use the simulation flags at the top of the script to test the flashing LED function. Useful if you want to use this script with other GPIO pins.
 
